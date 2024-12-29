@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="js/app.js"></script>
-    <script type="module" src="js/route.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <meta name="title" content="weatherio">
     <meta name="description" content="Appp made by Suraj">
@@ -15,11 +13,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap"rel="stylesheet">
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/route.js"></script>
 
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+            <img src="images/logo.png" width="364px" height="58" alt="logo">
+            </a>
+            <div class="search-view" data-search-view>
+                <div class="search-wrapper">
+                    <input type="search" name="seach" placeholder="Enter city"
+                    autocomplete="off" class="search-field " data-search-field>
 
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
